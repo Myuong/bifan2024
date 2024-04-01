@@ -782,7 +782,7 @@ Project
 .bg_proj {
     position:absolute;
     top:120px;
-    left:167px;
+    left:calc(50% - 750px);
     z-index:-1;
 }
 
