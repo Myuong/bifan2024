@@ -62,4 +62,12 @@ $(document).ready(function(){
     $('.family_site > button').on('click', function() {
         $('.family_site').toggleClass('open');
     });
+
+    //윈도우 크기 바뀔때 모바일 메뉴 닫기
+    $(window).resize(function() {
+        $('.mo_menu').css('right','-80%');
+        $('.m_hambuger').removeClass('open');
+        $('.dim').hide();
+        $('body').removeClass('lock')
+    } );
 });
