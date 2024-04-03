@@ -1444,7 +1444,8 @@ sponsor
 
 .sponsor_navigaiton {
     position:absolute;
-    top:0;
+    top:50%;
+    transform:translateY(-50%);
     display:flex;
     justify-content:space-between;
     width:100%;
